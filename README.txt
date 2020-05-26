@@ -1,6 +1,6 @@
-## Image Classifier 
+Image Classifier 
 
-### Part 1: Development Notebook
+Part 1: Development Notebook
 
 Training data augmentation: Torchvision transforms are used to augment the training data with random scaling, rotations, mirroring, and/or cropping
 
@@ -30,7 +30,7 @@ Class Prediction: The predict function successfully takes the path to an image a
 
 Sanity Checking with matplotlib: A matplotlib figure is created displaying an image and its associated top 5 most probable classes with actual flower names
 
-### Part 2 - Command Line Application
+Part 2 - Command Line Application
 
 train.py - Training a network, Training validation log, Model architecture, Model hyperparameters, Training with GPU
 predict.py - Predicting classes, Top K classes, Displaying class names, Predicting with GPU
